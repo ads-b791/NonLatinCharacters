@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+textarea{
+	resize: none;
+}
+html,
+body {
+	font-family: 'Nunito', sans-serif;
+	height: 100%;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 125%;
+	background-color: #989EB1;
+	color: #fff;
+}
+
+.container{
+	max-width: 1200px;
+	padding: 50px 15px 15px 15px;
+	margin: 0 auto;
+}
+.title{
+	font-size: 48px;
+	line-height: 125%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.form-control{
+	min-height: 300px;
+	width: 100%;
+	background-color: #e0e3ec;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 125%;
+	color: #2e448d;
+}
+.form-label{
+	font-size: 24px;
+	line-height: 150%;
+	color: #aa4141;
+}
+.btn{
+	display: inline-flex;
+	font-size: 18px;
+	line-height: 125%;
+	padding: 25px 45px;
+	background-color: #2e448d;
+	color: #E4E7F1;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.btn:hover{
+	background-color: #415aaa;
+}
+.latin-result{
+	min-height: 200px;
+	width: 100%;
+	background-color: #e0e3ec;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 125%;
+	color: #2e448d;
+}
+mark{
+	color: red;
+	background-color: gold;
+}
+pre{
+	width: 100%;
+	min-height: 200px;
+	display: block;
+	overflow: auto;
+}
+code{
+	width: 100%;
+	min-height: 200px;
+	display: block;
+	overflow: auto;
+}
