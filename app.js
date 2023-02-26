@@ -6,7 +6,7 @@ event.preventDefault();
 let text = innerText.value.trim();
 if (text ==='') return;
 
-const template = '0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz!@#$%^&*()_+-={}[]?.,;:\'\"\\/ ';
+const template = '0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz!@#$%^&*()_+-={}[]?.,;:\'\"\\/ 	';
 
 let out = '';
 for (let i = 0; i < text.length; i++) {
