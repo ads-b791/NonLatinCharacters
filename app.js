@@ -27,6 +27,8 @@ out += text[i];
 }
 }
 outerText.innerHTML = out;
+innerText.value = "";
+innerText.focus();
 }
 
 
